@@ -4,6 +4,7 @@
 ## Usage
 
 ```php
+<?php
 require('./JsonFixer.php')
 $fixer = new JsonFixer($jsonString);
 
@@ -12,4 +13,6 @@ $result = $fixer->getResult('array');
 
 //get result in json
 $json = $fixer->getResult('json');
+
+?>
 ```
